@@ -1,0 +1,162 @@
+.content-section-a {
+    background-color: black;
+    padding: 50px 0;
+}
+div {
+    display: block;
+}
+.container {
+    width: 970px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-sm-6 {
+    width: 50%;
+}
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: left;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.heading-spacer {
+    border-top-color: black;
+    float: left;
+    width: 200px;
+    border-top: 3px solid lightgrey;
+}
+hr {
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    height: 0;
+    box-sizing: content-box;
+}
+.section-heading {
+    margin-bottom: 30px;
+}
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-family: 'Vollkorn SC', serif;
+}
+p {
+    margin: 0 0 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+b, strong {
+    font-size: 18px;
+    font-weight: 400;
+}
+.col-sm-offset-2 {
+    margin-left: 16.66666667%;
+}
+.col-sm-4 {
+    width: 33.33333333%;
+}
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: left;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.img-responsive {
+    border-radius: 10px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+img {
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    vertical-align: middle;
+    border: 0;
+}
+.col-sm-3 {
+    width: 25%;
+}
+.section-heading-spacer {
+    border-top-color: black;
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+hr {
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    height: 0;
+    box-sizing: content-box;
+}
+.content1 {
+    margin-top: 30px;
+}
+.thumbnail {
+    border-top-color: rgb(58, 58, 58);
+    border-right-color: rgb(58, 58, 58);
+    border-bottom-color: rgb(58, 58, 58);
+    border-left-color: rgb(58, 58, 58);
+    background-color: black;
+    border: 3px solid black;
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    transition: border .2s ease-in-out;
+}
+.thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.thumbnail .caption {
+    color: rgb(214,211,205);
+    padding: 9px;
+}
+.text-center {
+    text-align : center;
+}
+h4{
+    color: inherit;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

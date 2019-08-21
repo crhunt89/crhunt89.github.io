@@ -7,6 +7,29 @@
 @import "projects.css";
 @import "variables.css";
 
+body, h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+    font-family: 'Notable', sans-serif;
+}
 body {
-    background-color: green;
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    background-color: rgb(24, 26, 27);
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
+    border-color: #575757;
+    box-sizing: border-box;
+    display: block;
+}
+.display-4{
+    text-align: center;
+    background-color: black;
+}
+.card {
+    background-color: black;
+}
+.card-text {
+    font-family: 'Vollkorn SC', serif;
 }

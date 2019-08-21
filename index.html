@@ -5,98 +5,179 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-
     <!-- Bootstrap Link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- CSS Files -->
     <link rel="stylesheet" href="css/main.css">
     <!-- Fonts Notable = Headers   Vollkorn = Body-->
-    <link href="https://fonts.googleapis.com/css?family=Notable|Vollkorn+SC&display=swap" rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Notable|Vollkorn&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f66e6997ba.js"></script>
+    <title>Cody Hunt</title>
 </head>
 
 <body>
-    <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="#">Welcome</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#about">About<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#projects">Projects</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
+            </div>
         </div>
     </nav>
-
-    <!-- Header -->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </div>
-    </div>
-
-    <!-- About -->
-    <div id="about">
+    <div class="intro-header">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.</p>
-                </div>
-                <div class="col-sm-4">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.</p>
-                </div>
-                <div class="col-sm-4">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.</p>
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Cody R. Hunt</h1>
+                        <h3>Java Script Student <span></h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="https://github.com/crhunt89" target="blank" class="btn btn-default btn-lg"><i
+                                        class="fab fa-github-alt"></i> <span class="network-name">Github</span></a>
+                            </li>
+                            <li>
+                                <a href="www.linkedin.com/in/cody-hunt-925a61126" target="blank"
+                                    class="btn btn-default btn-lg"><i class="fab fa-linkedin"></i> <span
+                                        class="network-name">Linkedin</span></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- About Me Content -->
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <hr class="heading-spacer">
+                    <div class="clearfix"></div>
+                    <h1 class="section-heading" id=about></h1>About Me:</h1>
+                    <p class="lead">Welcome </b></p><b>
 
+                    </b>
+                </div><b>
+                    <div class="col-sm-offset-2 col-sm-4">
+                        <img class="img-responsive" src="coming soon" alt="">
+                    </div>
+                </b>
+            </div><b>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h3>My Outside Interests:
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="row content1">
+                    <div class="col-sm-3">
+                        <div class="thumbnail">
+                            <img src="./Assets/chopping.jpg" class="img-circle">
+                            <div class="caption">
+                                <h4 class="text-center">Cooking</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="thumbnail">
+                            <img src="./Assets/golf.jpg" class="img-circle">
+                            <div class="caption">
+                                <h4 class="text-center">Golf</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="thumbnail">
+                            <img src="./Assets/networking.jpg" class="img-circle">
+                            <div class="caption">
+                                <h4 class="text-center">Networking</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="thumbnail">
+                            <img src="./Assets/psSilhouette.jpg" class="img-circle">
+                            <div class="caption">
+                                <h4 class="text-center">Gaming</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </b>
+        </div><b>
+            <!-- /.container -->
+        </b>
+    </div>
+    <!-- Portfolio -->
+    <h1 class="display-4" id="projects">Projects</h1>
+    <div class="card-group">
+        <div class="card">
+            <a href="https://crhunt89.github.io/staticLayout/">
+                <img src="./Assets/netflixStatic.PNG" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Netflix Static Website</h5>
+                <p class="card-text">My first re-creation of Netflix's base website.</p>
+            </div>
+        </div>
+        <div class="card">
+            <a href="https://rickandmortydeadoralive.firebaseapp.com/">
+                <img src="./Assets/background2.jpg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Rick and Morty: Dead or Alive</h5>
+                <p class="card-text">A place to search what characters are still dead or alive.</p>
+            </div>
+        </div>
+        <div class="card">
+            <a href="https://codepen.io/crhunt21/pen/QeaGdP">
+                <img src="./Assets/Creature.PNG" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">Creature Project</h5>
+                <p class="card-text">A project I was able to do the first time I used HTML and CSS</p>
+            </div>
+        </div>
+    </div>
+    <div class="card-group">
+            <div class="card">
+              <img src="./Assets/blueBadge.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">COMING SOON!!</h5>
+                <p class="card-text">Blue Badge Project in the works check back soon.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./Assets/redBadge.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">COMING SOON!!</h5>
+                <p class="card-text">Red Badge Project in the works check back soon.</p>
+              </div>
+            </div>
+            <!-- <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Comi</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div> -->
+          </div>
     <!-- Contact -->
     <div id="contact">
         <div class="container">
@@ -109,18 +190,18 @@
                         <fieldset id="fs-frm-inputs">
                             <div class="form-group">
                                 <label for="full-name">Full Name</label>
-                                <input class="form-control" type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                                <input class="form-control" type="text" name="name" id="full-name"
+                                    placeholder="First and Last" required="">
                             </div>
                             <div class="form-group">
                                 <label for="email-address">Email Address</label>
-                                <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld"
-                                    required="">
+                                <input class="form-control" type="email" name="_replyto" id="email-address"
+                                    placeholder="email@domain.tld" required="">
                             </div>
                             <div class="form-group">
                                 <label for="message">Message</label>
                                 <textarea class="form-control" rows="5" name="message" id="message"
-                                    placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
-                                    required=""></textarea>
+                                    placeholder="Message" required=""></textarea>
                                 <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                             </div>
                         </fieldset>
