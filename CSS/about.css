@@ -61,6 +61,9 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    font-family: 'Vollkorn SC', serif;
+    font-size: 18px;
+    font-weight: 400;
 }
 b, strong {
     font-size: 18px;
